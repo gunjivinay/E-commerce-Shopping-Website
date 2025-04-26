@@ -322,3 +322,24 @@ font-weight: 600;
             
 
 }
+
+
+@media screen and (max-width: 1620px) and (min-width: 1024px){
+
+    .left{
+        width: 30%; 
+      
+     }
+
+     .cart{
+        width: 40%;
+     }
+
+     .product{
+        width: 240px;
+    } 
+
+    .products{
+        grid-template-columns: auto auto;  
+         }
+}
